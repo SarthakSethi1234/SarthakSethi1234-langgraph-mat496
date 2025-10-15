@@ -15,3 +15,13 @@ Changes I made:
 I made a simple graph in langchain which detects if the user is happy or not and cheers him if he's sad and appreciate him if he's happy.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/simple_graph_example.ipynb
+
+Video 3: Langsmith Studio
+
+I learned about LangGraph Studio which is an interactive IDE for building, visualizing, and debugging AI agent workflows made with LangGraph. It integrates with LangSmith to trace, test, and optimize prompts or graph runs in real time. I also learned that each module has a studio directory which helps us to run the langraph studio to run a graph for each module.
+
+Link:
+
+Changes I made:
+
+Since there was no notebook related to this video. I sucessfully followed the tutorial ran the langgraph studio on my laptop and tested out a few graph states adn its working. I also attached the screenshots for the same in the above link.
