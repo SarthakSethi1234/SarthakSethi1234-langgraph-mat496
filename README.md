@@ -8,10 +8,10 @@ Video 2: Simple graph
 
 In this lesson I learned how to build a simple graph and got introduced to the core compoents of a langgraph. The edge between the start and node 1 is called normal edge. When we choe different nodes based on some condition then these edges are known as conditional edges. State is the object that we bass in between the nodes and edges or our graph.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/simple-graph.ipynb
 
 Changes I made:
 
 I made a simple graph in langchain which detects if the user is happy or not and cheers him if he's sad and appreciate him if he's happy.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/simple_graph_example.ipynb
