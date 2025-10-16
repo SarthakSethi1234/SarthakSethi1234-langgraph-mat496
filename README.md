@@ -30,13 +30,13 @@ Video 4: Chain
 
 In this video I learned about chains and how to builc them. A simple chain combines 4 key concepts: using chat messages in our graph, using chat models, binding tools to our llm executing tool calls in our graph. I also learned how to pass a chat list containing AIMessage and HumanMessage to our llm model. I also learned how to connect a tool to our llm model. Then I learned how to use messages as graph state and about the "add_message" reducer.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/chain.ipynb
 
 Changes I made: 
 
-I made my own examples by following the notebook and tested all the new concepts on them. I created a simple chain and few extra tools like a web search tool, subtracat tool, multiply tool etc and tested them.
+I made my own examples by following the notebook and tested all the new concepts on them. I created a simple chain and few extra tools like a web search tool, subtracat tool, multiply tool etc and binded them with my llm created a simple workflow and tested it out on a few prompts.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/chain-example.ipynb
 
 
 
