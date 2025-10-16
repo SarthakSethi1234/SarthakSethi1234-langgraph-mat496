@@ -42,13 +42,13 @@ Video 5: Router
 
 In the previous video we learned that a graph can either retun a tool call or return a NLP response and we also saw that an llm was directing the workflow of our our application. In this video we added a node that actually calls the tool whenever the model returns a tool call and an conditional edge that will direct the workflow on seeing whether the llms response consits of a tool or or just end the workflow. Then we saw the same workflow in langgraph studio and saw it visually by entering some prompts.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/router.ipynb
 
 Changes I made:
 
 I added a node that actually calls the tool whenever the model returns a tool call and an conditional edge that will direct the workflow on seeing whether the llms response consits of a tool or or just end the workflow to my previous example which would only show the tool call and then I tested this workflow by some other prompts and I also analysed the same workflow in langgraph studio as well and attached the screenshots for the same in the notebook attached below.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/router-example.ipynb
 
 
 
