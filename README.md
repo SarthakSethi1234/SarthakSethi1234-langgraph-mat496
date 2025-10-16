@@ -25,3 +25,19 @@ Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob
 Changes I made:
 
 Since there was no notebook related to this video. I sucessfully followed the tutorial ran the langgraph studio on my laptop and tested out a few graph states adn its working. I also attached the screenshots for the same in the above link.
+
+Video 4: Chain
+
+In this video I learned about chains and how to builc them. A simple chain combines 4 key concepts: using chat messages in our graph, using chat models, binding tools to our llm executing tool calls in our graph. I also learned how to pass a chat list containing AIMessage and HumanMessage to our llm model. I also learned how to connect a tool to our llm model. Then I learned how to use messages as graph state and about the "add_message" reducer.
+
+Link:
+
+Changes I made: 
+
+I made my own examples by following the notebook and tested all the new concepts on them. I created a simple chain and few extra tools like a web search tool, subtracat tool, multiply tool etc and tested them.
+
+Link:
+
+
+
+
