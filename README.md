@@ -66,13 +66,13 @@ Video 7: Agent with Memory
 
 In this video we explored the idea of memory and why the functionality of the agent increases during multi-turn conversations with interruptions when it has a memory. Then we got introduced to persistence. LangGraph can use a checkpointer to automatically save the graph state after each step. This built-in persistence layer gives us memory, allowing LangGraph to pick up from the last state update. One of the easiest checkpointers to use is the MemorySaver, an in-memory key-value store for graph state that enables LangGraph to retain context and continue seamlessly across turns. Then we interacted with the same agent in langgraph studio. I also learned that in langgraph studeio we dont need to add persistence layer on our own because it used langcgain api key which has its own persistence layer, which happends to be postgress
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/agent-memory.ipynb
 
 Changes I made:
 
 I modified my own agent to have a memory by using the concept of persistence. I used a checkpointer which automatically saves the graph state after each step in a thread. After doing this I tested my agent out by having a multi-turn conversations with interruptions and analysing its output which was consistent keeping in mind the multi-turn coversations with interruptions. I also interacted with my agent in lanngraph studio and I attached the screenshorts for the same in the notebook below.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/agent-memory-example.ipynb
 
 
 
