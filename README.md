@@ -54,13 +54,13 @@ Video 6: Agent
 
 In the last tutorial we went to call on the tools whenever the model decided to do a tool call. Here in this video we explored a very popular architecture known as ReAct where we simply passed the "ToolMessage" back to the model where then the model decides that if it needs to call another tool or respond to the prompt directly. We then built this simple generic architecture. After creating this in the graph visualisation I observed that now after calling the tool theres an edge that feeds back the response to the assistant node. After that we ran a few examples and observed their tracing in langsmith. This helped me learn how to use both langsmith and langgraph to my advantage and also trace our llm calls and also keep a track of meta data such as tokens usage and latency.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/agent.ipynb
 
 Changes I made:
 
 I revamped my previous example by doing exactly the same as in the tutorial, that is, connecting my tool node with the llm calling node. Then I ran a few example prompts to test out if my ReAct agent could generate a proper response using all the tool calls it did after processing a single prompt. I alo noticed that my agent can now evaluate expressions ny repeatead tool calls. I also analysed the workflow of a few examples in langgraph studio and I attached the screenshots related to the same in the notebook below.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/agent-example.ipynb
 
 
 
