@@ -38,6 +38,18 @@ I made my own examples by following the notebook and tested all the new concepts
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/chain-example.ipynb
 
+Video 5: Router
+
+In the previous video we learned that a graph can either retun a tool call or return a NLP response and we also saw that an llm was directling the workflow of our our application. In this video we will add a node that actually calls the tool whenever the model returns a tool call and an conditional edge that will direct the workflow on seeing whether the llms response consits of a tool or or just end the workflow. Then we saw the same workflow in langgraph studio and saw it visually by entering some prompts.
+
+Link:
+
+Changes I made:
+
+I added a node that actually calls the tool whenever the model returns a tool call and an conditional edge that will direct the workflow on seeing whether the llms response consits of a tool or or just end the workflow to my previous example which would only show the tool call and then I tested this workflow ny some other prompts and I also analysed the same workflow in langgraph studio as well.
+
+Link: 
+
 
 
 
