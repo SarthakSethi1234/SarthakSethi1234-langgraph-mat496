@@ -80,13 +80,13 @@ Video 1: State Schema
 
 In this video I learned about Schmea which is just the structure and types of the data the graph will use and we have been using type dict for this purpose till now. In this we learned about dataclass which is very similar to typedict but has a very minor difference in the way we access the values which in this case is by the "." operator. On eof the problems with bothdata classes and type dicts that we've been using is that the type hints aren't being enforced at the runtime that means we can asign an invalid value without raising an error and to overcome this pydantic is very sucessful as it provided data validation
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/state-schema.ipynb
 
 Changes I made:
 
-I made my own graph using PYDANTIC and I observed its working with valid and invalid inputs.
+I made my own graph that decides whather the user wants to confirm an order or cancel it using PYDANTIC and I observed its working with valid and invalid inputs.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/state-schema-example.ipynb
 
 Video 2: State Reducers
 Video 3: Multiple Schemas
