@@ -89,6 +89,17 @@ I made my own graph that decides whather the user wants to confirm an order or c
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/state-schema-example.ipynb
 
 Video 2: State Reducers
+
+In this video we dived into reducers, which specify how state updates are performed on specific keys or channels in our schema. I learned that when we want to update a state which is shared among two nodes simultaneously ut gives a value error and to overcome this shortcoming we use state reducers. We used Annotated for this purpose. In some cases we are required to define custom reducers rather than using the inbuit reducers in python for edge cases such as null. Next we also learned about the message state reducers and add_reducer method. We learned about adding messages, overwriting them using id and deleting them using the inbuilt RemoveMessage reducers.
+
+Link:
+
+Changed I made:
+
+I tested out the inbuit message reducers provided by langgraph with a few examples. I also made a custom reducer and a graph which adds 1, 5 and 7 in each node and ran a few testacases on wit which checks if our cutsom reducers are working or not.
+
+Link: 
+
 Video 3: Multiple Schemas
 Video 4: Trim and Filter Messages
 Video 5: ChatBot with summarizing Messages and Memory
