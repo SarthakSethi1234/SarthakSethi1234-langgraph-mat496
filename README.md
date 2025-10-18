@@ -1,4 +1,4 @@
-MODULE 1: 
+MODULE 1: Introduction
 
 Video 1: Motivation
 
@@ -73,6 +73,26 @@ Changes I made:
 I modified my own agent to have a memory by using the concept of persistence. I used a checkpointer which automatically saves the graph state after each step in a thread. After doing this I tested my agent out by having a multi-turn conversations with interruptions and analysing its output which was consistent keeping in mind the multi-turn coversations with interruptions. I also interacted with my agent in lanngraph studio and I attached the screenshorts for the same in the notebook below.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%201/agent-memory-example.ipynb
+
+MODULE 2: Resources
+
+Video 1: State Schema
+
+In this video I learned about Schmea which is just the structure and types of the data the graph will use and we have been using type dict for this purpose till now. In this we learned about dataclass which is very similar to typedict but has a very minor difference in the way we access the values which in this case is by the "." operator. On eof the problems with bothdata classes and type dicts that we've been using is that the type hints aren't being enforced at the runtime that means we can asign an invalid value without raising an error and to overcome this pydantic is very sucessful as it provided data validation
+
+Link: 
+
+Changes I made:
+
+I made my own graph using PYDANTIC and I observed its working with valid and invalid inputs.
+
+Link: 
+
+Video 2: State Reducers
+Video 3: Multiple Schemas
+Video 4: Trim and Filter Messages
+Video 5: ChatBot with summarizing Messages and Memory
+Video 6: ChatBot with summarizing Messages and External Memory
 
 
 
