@@ -104,15 +104,17 @@ Video 3: Multiple Schemas
 
 In this videoo I learne that most of the graphs use single schema which contains their input and output keys but there are some cases where we want more control over this. There might be cases where the internal nodes of the graphs may return an information that is not at all related to the output of the graph but might be the internal communication between the graphs which we dont want to be exposed to the user at the end of the graph operation. For this purpose, we can use private state. This is useful when we need anything that is a part of the intermediate working logic but not relevant to the overall graph output or input. I also learned that, StateGraph uses a single schema for all nodes to communicate. However, we can define explicit input and output schemas while keeping an internal schema that holds all relevant keys for graph operations.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/multiple-schemas.ipynb
 
 Changes I made:
 
 I made a graph which converts celcius to farenheit using private schemas for internal communication and I also built another graph which used input and output schema which handles the users travel destinantioons, information about that destinantiona and outputs a message to the user.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/multiple-schemas-example.ipynb
 
 Video 4: Trim and Filter Messages
+
+
 Video 5: ChatBot with summarizing Messages and Memory
 Video 6: ChatBot with summarizing Messages and External Memory
 
