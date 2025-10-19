@@ -128,13 +128,13 @@ Video 5: ChatBot with summarizing Messages and Memory
 
 In this video, I learned how to build a chatbot that summarizes past messages when the count exceeds six, helping reduce LLM context size. I explored how to add memory using a checkpointer that saves the graph state after each step. This allows the chatbot to remember conversations even after interruptions. I also understood how persistence makes chatbots more practical and efficient for long-term use.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/chatbot-summarization.ipynb
 
 Changes I made:
 
 I modified the theme to a tech support chatbot. The chatbot uses MemorySaver for persistent memory and keeps only the last 2 messages after summarizing, which helps reduce the context passed to the LLM. This approach saves costs and improves response time while maintaining conversation continuity through summaries. I also revised the concepts of threads in a conversation. I also observed the thread in langsmith portal and attached the screenshots fro the same in the notebook below
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/chatbot-summarization-example.ipynb
 
 
 Video 6: ChatBot with summarizing Messages and External Memory
