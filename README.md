@@ -141,13 +141,13 @@ Video 6: ChatBot with summarizing Messages and External Memory
 
 In this video, I learned that not only does langgraph provides in-memory checkpoints but also external memory checkpoints like postgres, sqlite etc. These in-memory checkpointers stores the memory till our notebook is in the existence. But these external memory checkpoints stores the convesation in an external database indefinitely. We also verified that if our thread was saved locally or not by interrupting our interpreter and restarting our notebook. I also learned that when we run the same chatbot in langgraph studio a persistence layer get automatically added for us. In case of langgraph studio this persistence layer is postgres. Then we explored the working of this chatbot in langgraph studio and i attached the screenshots for the same in the notebook below.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/chatbot-external-memory.ipynb
 
 Changes I made:
 
 I modified my tech support chatbot which I made by connecting its memory to a local external database using sqlite. I also verified whether this external memory checkpoints stores the conversation in external database indefinitely or not. I also explored the working of this chatbot in langgraph studio, saw the automaticlaly built persistence later in studio tested it by restarting the conversation and I attached the screenshots of the same in the notebook below.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/chatbot-external-memory-example.ipynb
 
 
 
