@@ -116,16 +116,13 @@ Video 4: Trim and Filter Messages
 
 In this video we learned how to work with messages. A practical problem with messages is managing long running conversations because there may be very long messages in the list and passing this into the graph will be both latency and tokean intensive which in turn will be very costly. To overcome this we can either keep a track of a few recent messages and delete the rest of the messages using "RemoveMessages". We can also filter some messages and invoke the graph using a subset of the messages and passing it to the chat model. Another way is trimming where can can trim the message by spoecifying the number of tokens we want to pass to the llm. This makes our llm respond even faster.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/trim-filter-messages.ipynb
 
 Changes I made:
 
 I made a simple chatbot that automatically forgets the old messages to save memory and costs. Here I'm not removing the messages permanently but using trim_messages to pass the recent messages to the llm instead of the whole thread. In this way I'm preserving the history and also reducing the token cost per invocation of the llm.
 
-Link:
-
-
-
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/trim-filter-messages-example.ipynb
 
 Video 5: ChatBot with summarizing Messages and Memory
 Video 6: ChatBot with summarizing Messages and External Memory
