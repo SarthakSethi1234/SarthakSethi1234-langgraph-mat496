@@ -155,15 +155,27 @@ Video 1: Streaming
 
 In this video, I learned about streaming. There are two types of streming: streaming values and streaming updates. Streaming values streams the full state of the graph after eah node is called whereas streaming updates streams the update to the state of the graph after every node is called. I also learned that we can stream tokens as they’re generated using the .astream_events method, which emits events as they occur inside nodes. Each event is a dict with event, name, data, and metadata (which includes langgraph_node). Further, I also learned how to stream tokens using langgraph API. We also saw about the LangGraph API application and how we could use them from the IDE and also the availablity of a new streaming method messages that updated the final message token by token and gave us the Output.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/streaming-interruption.ipynb
 
 Changes I made:
 
 Since what we learned was just streaming of tokens and states. I used my previous example of a graph and tried streaming updates, values, tokens on it.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/streaming-interruption-example.ipynb
 
 Video 2: Breakpoints
+
+In this video, I learned the advantages of adding human-in-the-loop: If we want to approve certain step our agent is going to take such as tool usage, we may also use it for debugging and directly modifying or editing the state of our graph with human feedback. Next, I learned about breakpoints which provides a simple way to stop the graph at certain steps. I also learnda trick that if we do graph.stream(None, {thread_id}) it will start executing the graph from that stateSnapshot. This will help us continue from where we interrupted the flow of the graph. Next we learned about breakpoints with langgraph API. Here I can pass the interrupt before to my agent as an argument through the API whih is pretty good because we had to speciy it while we were compiling our graph. We also looked interrupt in the langmith studio as well.
+
+Link:
+
+Changes I made:
+
+I created a simple calculator agent with breakpoints that requires human approval before executing any mathematical operations. Instead of using multiply and divide like in the tutorial, I made my own tools such as add_numbers, subtract_numbers, and square_number to test out different arithmetic operations. I set up the graph with interrupt_before=["tools"] which pauses the workflow right before any tool gets executed.
+
+Link: 
+
+
 Video 3: Editing State and Human Feedback
 Video 4: Dynamic Breakpoints
 Video 5: Time Travel
