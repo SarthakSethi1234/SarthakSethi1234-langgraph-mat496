@@ -179,14 +179,15 @@ Video 3: Editing State and Human Feedback
 
 In this video we learned about how to edit the graph state once we have interrupted its flow. We know breakpoints are used for human approval but they also give us an opportunity to modify the state of the graph. This is done by the default message reducer "add_message" once we have updated the state of the graph. Next, I also learned how to add interrupt in langgrapg studio and explored its working there. We also learned how to edit the state of a graph using langgrapgh API. I also learned how to explicitly modify the graph state using user input by using a dummy node that will basically accept the user input and inject it into our graph at a particular point. By using the dummy node we will add feedback as if we are running that node and we can do this by simply with "as_node" feild in the update state function call.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/edit-state-human-feedback.ipynb
 
 Changes I made:
 
 In the exisiting example, I added more tools like subtract, divide,and a few other tools that add emotions and interrupted and changed the state of the graph by hardcoding and user input both and continued the execution of graph from there. I also modified the graphs state using langgraph API which I learned to do in the tutorial. I attached the working of the graph in the studio as well in the notebook below.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/edit-state-human-feedback-example.ipynb
 
 Video 4: Dynamic Breakpoints
+
 Video 5: Time Travel
 
