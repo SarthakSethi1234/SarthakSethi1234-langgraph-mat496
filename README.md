@@ -201,7 +201,7 @@ Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob
 
 Video 5: Time Travel
 
-In this video, I learned about Time Travel in LangGraph — which basically allows us to go back to a previous state of the graph, re-run nodes, or modify inputs before continuing execution. It’s like debugging in reverse — instead of just stopping at a breakpoint, we can rewind and replay certain parts of the workflow.I saw how time travel can be used to:Re-run the same input to get a possibly more accurate output.Change a specific part of the state and then continue execution from that point.It’s quite useful for debugging, testing variations, or improving responses without starting from scratch.
+In this video, I learned about Time Travel in LangGraph which basically allows us to go back to a previous state of the graph, re-run nodes, or modify inputs before continuing execution. It’s like debugging in reverse instead of just stopping at a breakpoint, we can rewind and replay certain parts of the workflow. I saw how time travel can be used to:Re-run the same input to get a possibly more accurate output. Change a specific part of the state and then continue execution from that point. It’s quite useful for debugging, testing variations, or improving responses without starting from scratch.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/time-travel.ipynb
 
