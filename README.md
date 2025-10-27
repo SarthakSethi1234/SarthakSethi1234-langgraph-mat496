@@ -191,13 +191,13 @@ Video 4: Dynamic Breakpoints
 
 We know that we can manually introduce breakpoints in the graph to interrupt it but what if we wanted the graph to interrupt itself that is what I learned in this video. We can think of it as an internal breakpoint and it could be based on some condition for example, like the state of the graph that flags or triggers it and we call this dynamic breakpoint and we can achieve this using nodeInterrupt. If we want to continue the execution  of the graph we need to update the state otherwise we will not be able to contonue the execution because that breakpoint condition will be met again and again.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/dynamic-breakpoints.ipynb
 
 Changes I made:
 
 In this example, instead of using the default length-based condition from the tutorial, I created my own simple version where the graph pauses dynamically whenever the input message contains the word "pause". After the interruption, I manually updated the state by changing the message to "Continue process" and then resumed the graph execution using the update_state() and graph.stream() methods.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/dynaic-breakpoints-example.ipynb
 
 Video 5: Time Travel
 
