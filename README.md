@@ -149,5 +149,22 @@ I modified my tech support chatbot which I made by connecting its memory to a lo
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%202/chatbot-external-memory-example.ipynb
 
+MODULE 3: UX and Human-in-the-loop
 
+Video 1: Streaming
+
+In this video, I learned about streaming. There are two types of streming: streaming values and streaming updates. Streaming values streams the full state of the graph after eah node is called whereas streaming updates streams the update to the state of the graph after every node is called. I also learned that we can stream tokens as they’re generated using the .astream_events method, which emits events as they occur inside nodes. Each event is a dict with event, name, data, and metadata (which includes langgraph_node). Further, I also learned how to stream tokens using langgraph API. We also saw about the LangGraph API application and how we could use them from the IDE and also the availablity of a new streaming method messages that updated the final message token by token and gave us the Output.
+
+Link:
+
+Changes I made:
+
+Since what we learned was just streaming of tokens and states. I used my previous example of a graph and tried streaming updates, values, tokens on it.
+
+Link: 
+
+Video 2: Breakpoints
+Video 3: Editing State and Human Feedback
+Video 4: Dynamic Breakpoints
+Video 5: Time Travel
 
