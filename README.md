@@ -238,4 +238,15 @@ In the existing notebook, I created my own simplified version of the subgraph ex
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/sub-graph-example.ipynb
 
 Video 3: Map Reduce
+
+In this video, I learned about Map Reduce which is basically an efficient task, decomposition and parallel processing method. It has two phases one is map phase which takes some tasks and breaks them into number of subtasks and do them all in parallel then theres reduce phase which basically aggregates the results from all the parallelized subtasks and brings them together. We then explored a toy example where in th map phase we create a set of jokes about a topic and in the reduce phase we pick the best one out of all of them. We use "Send" in the langgraph API which sends every statement in a list to a particular node and in our case its generate_joke. We also looked at this example in langsmith.
+
+Link: 
+
+Changes I made: 
+
+Instead of generating jokes like in the tutorial, I created an example where the map phase processes multiple pieces of text — each subtask counts the number of words in a document. Then, in the reduce phase, all those counts are combined to get the total word count for the full dataset. I used the Send method in LangGraph to send each document as an individual input to the map node and then used the reduce node to sum everything up.
+
+Link: 
+
 Video 4: Research Assistant
