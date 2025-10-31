@@ -245,7 +245,7 @@ Link:
 
 Changes I made: 
 
-Instead of generating jokes like in the tutorial, I created an example where the map phase processes multiple pieces of text — each subtask counts the number of words in a document. Then, in the reduce phase, all those counts are combined to get the total word count for the full dataset. I used the Send method in LangGraph to send each document as an individual input to the map node and then used the reduce node to sum everything up.
+n the existing example instead of generating jokes, I created a simple story generator that works on the same concept of map-reduce. In the map phase, I take a main story theme and generate multiple short character perspectives in parallel. Then, in the reduce phase, I combine all those perspectives into one cohesive story. I used Send to parallelize the story generation for each character, used operator.add as the reducer to merge all the generated stories, and defined separate state schemas for the overall flow and each individual task.
 
 Link: 
 
