@@ -241,12 +241,12 @@ Video 3: Map Reduce
 
 In this video, I learned about Map Reduce which is basically an efficient task, decomposition and parallel processing method. It has two phases one is map phase which takes some tasks and breaks them into number of subtasks and do them all in parallel then theres reduce phase which basically aggregates the results from all the parallelized subtasks and brings them together. We then explored a toy example where in th map phase we create a set of jokes about a topic and in the reduce phase we pick the best one out of all of them. We use "Send" in the langgraph API which sends every statement in a list to a particular node and in our case its generate_joke. We also looked at this example in langsmith.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/map-reduce.ipynb
 
 Changes I made: 
 
 n the existing example instead of generating jokes, I created a simple story generator that works on the same concept of map-reduce. In the map phase, I take a main story theme and generate multiple short character perspectives in parallel. Then, in the reduce phase, I combine all those perspectives into one cohesive story. I used Send to parallelize the story generation for each character, used operator.add as the reducer to merge all the generated stories, and defined separate state schemas for the overall flow and each individual task.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/map-reduce-example.ipynb
 
 Video 4: Research Assistant
