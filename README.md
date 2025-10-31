@@ -229,13 +229,13 @@ Video 2: Sub-Graphs
 
 In this video, we learned about subgraphs which is another important controllability topic. Sub-graphs allows us to create and manage dfifferent states within different parts of your graph and this is very useful for multiagent systems that have their own state. We than ran through a toy example understanding this in depth. I also got to know that the parent graph communicates with the subgraphs by overalapping keys. We also explored the woking of this graph in langsmith studio.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/sub-graph.ipynb
 
 Changes I made:
 
 In the existing notebook, I created my own simplified version of the subgraph example to understand it better. Instead of using the “failure analysis” and “question summarization” subgraphs from the tutorial, I designed a feedback processing system with two subgraphs and one main parent graph. The first subgraph performs sentiment analysis by checking whether feedback comments are positive or negative, while the second subgraph performs rating analysis by calculating the average ratings per subject from the feedback data. The main graph cleans the raw feedback and runs both these subgraphs in parallel, combining their outputs using reducers.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/sub-graph-example.ipynb
 
 Video 3: Map Reduce
 Video 4: Research Assistant
