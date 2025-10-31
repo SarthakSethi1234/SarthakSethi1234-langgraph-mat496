@@ -217,14 +217,16 @@ Video 1: Parallelization
 
 In this video i learned about fanning in and fanning out in graphs is something that we want to do. If we are running a step in parallel and they are writing to the same channel then we need to use a reducer that can update these changes otherwise it gives an error because in this single step mutiple nodes are trying to write to the same channel. We also walked through another such common architechture in parallelization. Next, I learned how to customize the order in which these parallel states are executed in a graph and this is done by using a custom reducer that controls or manages the order of these updates as we make them in the state values. Next, we applied these learning to make a web search agent we also interacted with this graph using the langgraph api key and in the langgraph studio also.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/parallelization.ipynb
 
 Changes I made:
 
 I made my own graph which applies the concept of parallelization, reducers etc. This graph searches for the recent web news for a company then it uses LLM to summarize the top headlines and insights. Optionally, uses Wikipedia as background context (company history) then it combines everything into a final concise summary.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/parallelozation-example.ipynb
 
 Video 2: Sub-Graphs
+
+
 Video 3: Map Reduce
 Video 4: Research Assistant
