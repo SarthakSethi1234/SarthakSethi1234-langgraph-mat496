@@ -210,3 +210,10 @@ Changes I made:
 In this notebook, I explored time travel by re-running the graph from a previous checkpoint to see how state restoration works. I also added a new function that calculates the logarithm of a number (a) to a given base (b) to test how changing the state and re-running affected the final output. This helped me understand how time travel can help debug or experiment with different inputs easily.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%203/time-travel-example.ipynb
+
+MODULE 4: Building Your Assistant
+
+Video 1: Parallelization
+Video 2: Sub-Graphs
+Video 3: Map Reduce
+Video 4: Research Assistant
