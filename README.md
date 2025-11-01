@@ -245,8 +245,18 @@ Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob
 
 Changes I made: 
 
-n the existing example instead of generating jokes, I created a simple story generator that works on the same concept of map-reduce. In the map phase, I take a main story theme and generate multiple short character perspectives in parallel. Then, in the reduce phase, I combine all those perspectives into one cohesive story. I used Send to parallelize the story generation for each character, used operator.add as the reducer to merge all the generated stories, and defined separate state schemas for the overall flow and each individual task.
+In the existing example instead of generating jokes, I created a simple story generator that works on the same concept of map-reduce. In the map phase, I take a main story theme and generate multiple short character perspectives in parallel. Then, in the reduce phase, I combine all those perspectives into one cohesive story. I used Send to parallelize the story generation for each character, used operator.add as the reducer to merge all the generated stories, and defined separate state schemas for the overall flow and each individual task.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langgraph-mat496/blob/main/MODULE%204/map-reduce-example.ipynb
 
 Video 4: Research Assistant
+
+I learned how to build a multi-agent research system combining human-in-the-loop feedback, sub-graphs for separate concerns, and parallel execution using Send() API. The system generated analysts based on a topic, allowed human refinement, conducted parallel interviews using web search, and synthesized findings into a report. I also learned how to manage multiple state objects using checkpointers for memory, and how to implement map-reduce patterns for scalability. Towards the end, we also looked into the execution of this agent in langsmith studio.
+
+Link: 
+
+Changes I made:
+
+In the exisiting example I created a simplified Movie Review Research Assistant that generates 2 analysts: Critic and Audience Analyst to research "Dune: Part Two movie review". I removed Wikipedia search to use only web search, reduced interview turns to 2, and simplified the report to focus on Critical Reception and Audience Response sections. I modified the analyst generation to focus specifically on movie review perspectives.
+
+Link: 
